@@ -49,10 +49,13 @@ class BinarySearchTester:
 
     # static method :
     def sort_list(self, list1: list) -> list:
-        for i in range(0, len(list1)):
-            least_index = i
-            for j in range(i, len(list1)):
-                if list1[j] < list1[least_index]:
-                    list1[j], list1[least_index] = list1[least_index], list1[j]
+        for i in range(1, len(list1)):
+            key = list1[i]
+            j = i - 1
+            while j >= 0 and key < list1[j]:
+                list1[j + 1] = list1[j]
+                j -= 1
+
+            list1[j + 1] = key
 
         return list1

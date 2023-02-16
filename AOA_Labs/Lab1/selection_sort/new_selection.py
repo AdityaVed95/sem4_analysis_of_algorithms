@@ -1,3 +1,4 @@
+# this is the most efficient method
 def selection_sort(arr):
     for i in range(len(arr) - 1):
         min_index = i
