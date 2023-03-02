@@ -2,6 +2,14 @@ import random
 
 
 def binary_search_using_recursive_approach(list1: list, key: int, imin: int, imax: int) -> int:
+    imid = 0
+
+    # doubt : if the above line is not there then too the program works
+    # it should not have worked since imid is declared inside the else
+    # block and is the local variable of the else block
+
+
+
     if imax < imin:
         return -1
 
