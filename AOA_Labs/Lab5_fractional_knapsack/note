@@ -1,0 +1,23 @@
+the important programs for this Lab 5 are :
+
+main.py
+object_structure.py
+merge_sort_on_list_of_object.py
+filling_items_using_fracitonal_knapsack.py
+
+In this implementation of knapsack : we assume that the profits and
+weights of each entity is unique
+if it is not unique then this program may not give the most optimised
+ result (depends on the order in which the items are inputted to the
+ program), although it will be close to the actual value
+
+Eg :
+profit : 120 , weight : 20
+profit : 120 , weight : 24
+
+in this case if the approach 1 of putting max profit element in bag
+1st is applied then the one which is inputted 1st to the program will be
+considered
+
+thus while using approach 1 we are not trying to optimise for minimum weight for the same profit
+this is the limitation of this program

@@ -12,17 +12,23 @@ def partition(arr, low, high):
     pivot = arr[high]
     i = low - 1
 
-    for j in range(low, high):
+    # for j in range(low, high):
+
+    j = low
+    while j < high:
+
         if arr[j] <= pivot:
             i += 1
             arr[i], arr[j] = arr[j], arr[i]
+
+        j += 1
 
     arr[i + 1], arr[high] = arr[high], arr[i + 1]
     return i + 1
 
 
 # Test case
-arrInput = [10, 7, 8, 9, 1, 5]
+arrInput = [10, 7, 8, 9, 1, 5, 10, 15]
 print("Input array:", arrInput)
 quick_sort(arrInput, 0, len(arrInput) - 1)
 print("Sorted array:", arrInput)
