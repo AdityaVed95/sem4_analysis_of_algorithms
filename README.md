@@ -7,5 +7,5 @@
 - Fractional Knapsack
 - Sorting Algorithms : 
   >Selection Sort
-  >Merge Sort
-  >Quick Sort
+  >>Merge Sort
+  >>>Quick Sort
