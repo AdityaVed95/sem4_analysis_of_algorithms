@@ -6,9 +6,9 @@
 - Max and Min of array using Recursive approach
 - Fractional Knapsack
 - Sorting Algorithms : 
-  -Selection Sort
-  -Merge Sort
-  -Quick Sort
+  - Selection Sort
+  - Merge Sort
+  - Quick Sort
 
 
 - First item
