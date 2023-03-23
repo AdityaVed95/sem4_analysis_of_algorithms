@@ -1,6 +1,6 @@
 # sem4_analysis_of_algorithms
 
-### implementation of following algorithms from scratch :
+### implementation of following algorithms from scratch in python:
 
 - Binary Search using both iterative and recursive approach and their performance comparision
 - Max and Min of array using Recursive approach
