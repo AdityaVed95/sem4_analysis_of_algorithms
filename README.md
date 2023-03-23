@@ -1,2 +1,4 @@
 # sem4_analysis_of_algorithms
-# HELLO
+# implementation of following algorithms from scratch :
+
+Fractional Knapsack
