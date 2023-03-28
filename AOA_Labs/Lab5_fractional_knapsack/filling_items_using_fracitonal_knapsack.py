@@ -29,4 +29,4 @@ def fill_items_into_the_bag(no_of_items: int, capacity: float, items_sorted: lis
     for i in range(no_of_items):
         total_profit = total_profit + selection_made[i] * items_sorted[i].getProfit()
 
-    print("total profit using this approach :  = ", total_profit)
+    print("total profit using this approach (by applying max optimisation function) :  = ", total_profit)

@@ -1,4 +1,5 @@
 import merge_sort_on_list_of_object
+import optimise_order
 from object_structure import Item
 from filling_items_using_fracitonal_knapsack import fill_items_into_the_bag
 import copy
@@ -32,6 +33,15 @@ merge_sort_on_list_of_object.merge_sort(items_sort_based_on_ratio_profit_by_weig
                                         'ratio_profit_by_weight', 'descending')
 
 print("\n¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥\n")
+
+# print("optimise_items_sorted_by_profit : ")
+optimise_order.optimise_items_sorted_by_profit(no_of_items, items_sort_based_on_profit)
+
+# print("optimise_items_sorted_by_weight")
+optimise_order.optimise_items_sorted_by_weight(no_of_items, items_sort_based_on_weight)
+
+# print("Note : The order of putting items in the bag is the order in which they are displayed")
+# print("So the item displayed 1st is put in the bag 1st\n")
 
 # filling of maximum profit first :
 print("Approach 1 : taking maximum profit elements : ")
